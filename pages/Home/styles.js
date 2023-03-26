@@ -1,0 +1,146 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+  pickerContainer: {
+    justifyContent: "center",
+    alignItems: "center",
+    width: "80%",
+    borderRadius: 5,
+    margin: 6,
+    backgroundColor: "#F5F5F5",
+  },
+  title: {
+    fontSize: 20,
+    fontWeight: "bold",
+    marginTop: 20,
+    marginBottom: 6,
+  },
+  list: {
+    width: "100%",
+    height: 260,
+    marginBottom: "auto",
+    margin: 6,
+  },
+  cardContainer: {
+    flexDirection: "row",
+    height: 80,
+    alignItems: "center",
+    marginLeft: 10,
+    marginRight: 10,
+    marginTop: 5,
+    marginBottom: 5,
+    backgroundColor: "#F5F5F5",
+    borderRadius: 5,
+    boxShadow: "0 0 5px #fffff3",
+  },
+  buttonContainer: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 10,
+    marginBottom: 15,
+  },
+  cartIcon: {
+    marginLeft: "auto",
+    marginRight: 20,
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 5,
+  },
+  textContainer: {
+    marginLeft: 20,
+    margin: 2,
+  },
+  menuCard: {
+    flexDirection: "row",
+    height: 60,
+    width: "21%",
+    justifyContent: "center",
+    alignItems: "center",
+    marginLeft: 10,
+    marginRight: 10,
+    marginBottom: 5,
+    backgroundColor: "#EA0033",
+    borderRadius: 5,
+    boxShadow: "0 0 5px #fffff3",
+  },
+  menuText: {
+    color: "white",
+  },
+  menuContainer: {
+    flex: 1,
+    marginTop: 20,
+    flexDirection: "row",
+    alignContent: "center",
+  },
+  cartButton: {
+    flexDirection: "row",
+    height: 60,
+    width: "21%",
+    justifyContent: "center",
+    alignItems: "center",
+    marginVertical: 10,
+    backgroundColor: "#EA0033",
+    borderRadius: 5,
+    boxShadow: "0 0 5px #fffff3",
+  },
+  quantityContainer: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    marginLeft: "auto",
+    marginRight: 20,
+  },
+  plusIcon: {
+    marginLeft: 10,
+  },
+  minusIcon: {
+    marginRight: 10,
+  },
+
+  centeredView: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 22,
+  },
+  modalView: {
+    margin: 20,
+    backgroundColor: "white",
+    borderRadius: 20,
+    padding: 35,
+    alignItems: "center",
+    shadowColor: "#000",
+    width: "90%",
+
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 5,
+  },
+  modalTitle: {
+    fontSize: 16,
+    fontWeight: "bold",
+    marginBottom: 10,
+  },
+  buttonClose: {
+    width: 80,
+    height: 40,
+    backgroundColor: "#EA0033",
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 5,
+    marginTop: 20,
+    marginHorizontal: 5,
+  },
+  closeText: {
+    color: "white",
+    fontSize: 16,
+    margin: "auto",
+  },
+});
+
+export default styles;
